@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Conversor Celsius para Fahrenheit</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <script src='scripts/main.js'></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" align="center">
+            <h1>Conversor de Celsius para Fahrenheit</h1>
+            <br>
+            <input type="number" id="celsius" placeholder="0 °C">
+            
+            <br>
+            <br>
+
+            <h2 id="fahren"></h2>
+    
+            <div class="botoes">
+                <button type="button" id="insert" onclick="Calc()" style="margin: 0 10px;">Converter</button>
+                <button type="button" id="limpar" onclick="Limpar()" style="margin: 0 10px">Limpar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
